@@ -5,9 +5,13 @@ EXPLAIN THE HOMEWORK HERE
 ## Contenidos del Repositorio GIT
 
 Esta tarea consiste de lo siguiente:
+	
 	1) Un archivo .ipynb utilizado para programar en el entorno Jupyter.
+	
 	2) Un archivo .py que contiene el código en formato de Python.
+	
 	3) Los archivos .csv que contienen los datos dados en el enunciado.
+	
 	4) Las imagenes correspondientes a la solución de la tarea.
 
 ### Punto 1
