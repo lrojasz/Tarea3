@@ -15,7 +15,8 @@ Esta tarea consiste de lo siguiente:
 
 Este punto se resuelve con el código que se encuentra en la función de curvaDeAjuste. 
 Este calcula diferentes posibles curvas para las funciones de densidad marginales. 
-El de mejor ajuste se despliega independiente de los datos, y todas las imagenes se guardan en el archivo. 
+El mejor ajuste es el de Voigt, y también se despliega la gráfica independiente de los datos. 
+Todas las imagenes se guardan en el archivo, y el código imprime los parámetros de mejor ajuste para la función. 
 
 ```python
 def curvaDeAjuste():
@@ -27,7 +28,8 @@ def curvaDeAjuste():
 
 Ya habiendo realizado una prueba de independencia, se debe asumir que los datos son independientes para graficar la función de densidad conjunta. 
 Cuando los datos son independientes, la densidad conjunta es igual al producto de las densidades marginales.  
-Por lo tanto, el producto de las funciones de densidad marginales anteriormente calculados nos otorga la función de densidad conjunta. 
+Por lo tanto, el producto de las mejores funciones de densidad marginales anteriormente calculados nos otorga la función de densidad conjunta. 
+La mejor función de densidad conjunta corresponde a el producto puntual de dos curvas de voigt, como se ve claramente en el código correspondiente. 
 
 ```python
 def fDensidadConjunta():
@@ -40,7 +42,7 @@ def fDensidadConjunta():
 
 La correlacaión, covarianza y coeficiente de correlación son datos que se calculan de forma algebraica e indican de alguna forma el comportamiento de la función analizada. 
 El cálculo de estos datos se obtiene utilizando el archivo "xyp.csv", para aplicar un solo for-loop y facilitar los cálculos. 
-Los datos correspondientes se calculan e imprimen en la función correlacionYcovarianza.
+Los datos correspondientes se calculan e imprimen en la función correlacionYcovarianza, y se imprimen al correr el código.
 
 ```python
 def correlacionYcovarianza():
