@@ -222,12 +222,11 @@ curvaDeAjuste()
 
 # ## ¿Son independientes los datos? Diseñar una prueba de independencia para los datos disponibles.
 
-# In[2]:
+# In[78]:
 
 
 #importar bibliotecas de pandas, matplotlib y numpy
 import matplotlib.pyplot as plt
-import pandas as pd 
 import numpy as np 
 
 

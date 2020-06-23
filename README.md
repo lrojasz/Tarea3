@@ -80,7 +80,7 @@ def fDensidadConjunta():
 
 ## Reconocimientos
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Se utilizaron bibliotecas de numpy y scipy para manipulación de datos y archivos.
+* Se utilizaron bibliotecas de matplotlib y pl_toolkits para realizar las gráficas.
+* Se utilizaron las fórmulas correspondientes a la presentación 9 - variables aleatorias múltiples para realizar cálculos numéricos.
 
