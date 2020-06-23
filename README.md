@@ -30,7 +30,7 @@ Cuando los datos son independientes, la densidad conjunta es igual al producto d
 Por lo tanto, el producto de las funciones de densidad marginales anteriormente calculados nos otorga la función de densidad conjunta. 
 
 ```python
-def fDensiddadConjunta():
+def fDensidadConjunta():
 	[...]
 	return
 ```
